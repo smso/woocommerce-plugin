@@ -1,0 +1,367 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+*{}
+.m-l-r
+{
+    margin-right: 35px !important;
+    margin-left: 20px !important;
+}
+.s-w,
+.s-f
+{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px #00000014;
+    padding: 0px 40px 30px 40px !important;
+    margin-top: 20px;
+    display: block;
+}
+.s-w .s-h
+{
+    margin: 15px 0px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+.s-w .s-h .s-t
+{
+    margin: 20px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 600;
+}
+.s-w .s-b
+{
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 15px;
+}
+.s-w .s-b label
+{
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f26822;
+}
+.s-w .s-b .group ul
+{
+
+}
+.s-w .s-b .group ul li
+{
+    margin: 10px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #664da0;
+    font-weight: 700;
+}
+.s-w .s-b .group ul li > p
+{
+    display: inline-block;
+}
+.s-w .s-b .group ul li span.tag
+{
+    background: #f26822;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    line-height: 17px;
+    font-size: 11px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 5px #00000024;
+}
+.s-w .s-b .group ul li a
+{
+    color: #f26822;
+    text-decoration: unset;
+    text-shadow: 0px 1px 2px #f268223d;
+}
+.s-f .group,
+.s-w .group
+{
+    padding: 15px 0px;
+    border: 1px solid #f1f1f1;
+    margin: 50px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 45px;
+}
+.s-f .group .list
+{
+    margin: 10px 0px;
+}
+.s-f .group .list span
+{
+    font-weight: 500;
+    font-size: 13px;
+    color: #664da0;
+    text-transform: uppercase;
+    position: relative;
+    top: 7px;
+}
+.s-f .group label,
+.s-w .group label
+{
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding-left: 10px;
+    cursor: unset;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 35px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0px 1px 5px #00000024;
+    position: relative;
+    background: linear-gradient(to bottom, #654c9c 0%, #6d50af 40%, #654c9c 100%);
+    box-shadow: 0px 1px 5px #3e2f5f78;
+    border: 1px solid #664da0;
+
+}
+.s-w .group label
+{
+    width: 300px; 
+}
+.s-f .group label:before,
+.s-w .group label:before
+{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 10px;
+    height: 10px;
+    background: #5e42a0;
+    border-radius: 100px;
+    border: 2px solid #7b5ebf;
+}
+.s-w .group label p
+{
+    margin: 0px; 
+    padding: 0px;
+}
+.s-w .group label p:after
+{
+    content: "";
+}
+.s-f .group label:after,
+.s-w .group label:after
+{
+    content: url(../img/smso-icon.png);
+    height: auto;
+    position: absolute;
+    top: -30px;
+    right: -35px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.s-f .group input[type="radio"],
+.s-f .group input[type="checkbox"]
+{
+	margin: 0px 5px;
+    position: relative;
+    top: 5px;
+}
+.s-f .group input[type="checkbox"]
+{
+
+}
+.s-f .group textarea
+{
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    font-size: 16px;
+    color: #664da0;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.s-f .group .description p,
+.s-w .group .description p
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: #c0c0c0;
+    text-align: left;
+    margin-top: 10px;
+}
+.s-f .group input[type="text"],
+.s-w .group input[type="text"]
+{
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #f26822;
+    background-color: #fff;
+    background-image: none;
+    height: 50px;
+    box-shadow: unset;
+    display: block;
+    border-radius: 100px;
+    width: 100%;
+    transition: 0.2s border;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    font-weight: 600;
+}
+.s-f input[type="submit"],
+.s-w input[type="submit"] {
+    background: linear-gradient(to bottom, #654c9c 0%, #6d50af 40%, #654c9c 100%);
+    border: 1px solid #664da0;
+    padding: 10px 10px 11px 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 20px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 5px #3e2f5f78;
+}
+.s-w input[type="submit"]
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 13px;
+    width: 300px;
+    padding: 7px 10px 7px 10px;
+}
+body .alert.alert-warning.smso-alert
+{
+    color: #fff;
+    background-color: #664da0;
+    border-color: #fff0;
+    margin-top: 30px;
+    box-shadow: 0px 1px 5px #664da082;
+    padding: 0px;
+    border: 0px;
+    border-radius: 100px;
+}
+body .alert.alert-warning.smso-alert.smso-alert-success.alert-dismissible
+{
+    color: #fff;
+    background-color: #664da0;
+    border-color: #fff0;
+    margin-top: 30px;
+    box-shadow: 0px 1px 5px #664da082;
+    padding: 20px;
+    border: 0px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+body .alert.alert-warning.smso-alert.smso-alert-success.alert-dismissible .close span {
+    line-height: 16px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    top: 0px;
+    position: absolute;
+    right: 40px;
+}
+
+body .alert.alert-warning.smso-alert strong
+{
+    color: #fff;
+    height: 55px;
+    margin: 0px;
+    display: inline-block;
+    line-height: 53px;
+    background: #f26822;
+    padding: 0px 10px;
+    border-radius: 100px;
+    box-shadow: 0px 1px 5px #f2682257;
+    width: 200px;
+    text-align: center;
+}
+body .alert.alert-warning.smso-alert .close span
+{
+    line-height: 16px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    top: 18px;
+    position: absolute;
+    right: 40px;
+}
+.s-f .group-radio
+{
+    margin-bottom: 10px;
+    text-align: left;
+}
+@media screen and (max-width: 767px)
+{
+    .s-w .s-h,
+    .s-f .group .description p,
+    .s-w .s-b .group,
+    .s-f .group .list
+    {
+        text-align: center;
+    }
+    .s-f .group label,
+    .s-w .group label,
+    .s-f input[type="submit"]
+    {
+        width: 100%; 
+    }
+    .s-f .group input[type="checkbox"]
+    {
+        margin: 0 auto;
+        display: block;
+        margin-top: 22px; 
+    }
+    .s-f .group label:after {
+        content: url(../img/smso-icon.png);
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        border-radius: 100px;
+        display: inline-block;
+        transform: translate(-50%, 0%);
+    }
+    .s-f .group,
+    .s-w .group
+    {
+        padding-left: 10px;
+        padding-right: 10px;   
+    }
+    body .alert.alert-warning.smso-alert
+    {
+        border-radius: 5px;
+        height: auto;
+        line-height: 38px;
+        text-align: center; 
+        line-height: 23px;
+    }
+    body .alert.alert-warning.smso-alert strong
+    {
+        border-radius: 5px;
+        width: 100%;
+        min-height: 55px;
+        line-height: 50px;
+        display: inline-table;
+    }
+    body .alert.alert-warning.smso-alert .close span {
+        top: 3px;
+        position: absolute;
+        right: 28px;
+    }
+}
