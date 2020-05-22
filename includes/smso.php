@@ -174,9 +174,9 @@ class Smso {
 	 */
 	private function define_public_hooks() 
 	{
-		$smso_public = new Smso_Public( $this->get_plugin_name(), $this->get_version() );
-		$this->loader->add_action( 'wp_enqueue_scripts', $smso_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $smso_public, 'enqueue_scripts' );
+		//$smso_public = new Smso_Public( $this->get_plugin_name(), $this->get_version() );
+		//$this->loader->add_action( 'wp_enqueue_scripts', $smso_public, 'enqueue_styles' );
+		//$this->loader->add_action( 'wp_enqueue_scripts', $smso_public, 'enqueue_scripts' );
 	}
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
