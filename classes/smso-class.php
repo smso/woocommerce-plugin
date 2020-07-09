@@ -42,7 +42,7 @@ class Smso_Class
 
     public function getSenders()
     {
-        return $this->makeRequest('/senders', 'GET');
+        return $this->makeRequest('senders', 'GET');
     }
 
     public function sendMessage($to, $body, $sender)
@@ -51,7 +51,7 @@ class Smso_Class
         $data['to'] = $to;
         $data['body'] = $body;
         $data['sender'] = $sender;
-        return $this->makeRequest('/send', 'POST' , $data);
+        return $this->makeRequest('send', 'POST' , $data);
     }
 
     public function sendMessageSIM($to, $body)
@@ -59,7 +59,7 @@ class Smso_Class
         $data = array();
         $data['to'] = $to;
         $data['body'] = $body;
-        return $this->makeRequest('/send/sim', 'POST' , $data);
+        return $this->makeRequest('send/sim', 'POST' , $data);
     }
 
     public function getStatusMessage($msg_token)
@@ -74,7 +74,7 @@ class Smso_Class
         */
         $data = array();
         $data['responseToken'] = $msg_token;
-        return $this->makeRequest('/status', 'POST' , $data);
+        return $this->makeRequest('status', 'POST' , $data);
     }
 
     public function isValidToken()
