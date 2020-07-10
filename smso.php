@@ -17,7 +17,7 @@
  * @package           smso
  *
  * @wordpress-plugin
- * Plugin Name:       SMS Order Notifications
+ * Plugin Name:       SMS Order Status Notifications
  * Plugin URI:        https://github.com/smso/woocommerce-plugin
  * Description:       Engage with your customers through SMS every step of the way, from order submission to delivery.
  * Version:           1.0.0
