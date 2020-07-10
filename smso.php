@@ -18,8 +18,8 @@
  *
  * @wordpress-plugin
  * Plugin Name:       SMSO
- * Plugin URI:        https://www.smso.ro/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Plugin URI:        https://github.com/smso/woocommerce-plugin
+ * Description:       Engage with your customers through SMS every step of the way, from order submission to delivery.
  * Version:           1.0.0
  * Author:            SMSO
  * Author URI:        https://www.smso.ro/
