@@ -5,22 +5,22 @@
 <br/><br/>
 Trimite un SMS catre client in urma urmatoarelor statusuri de comanda:
 <ul>
-<li>comanda plasata cu succes
-<li>comanda in procesare
-<li>comanda in asteptare
-<li>comanda finalizata
-<li>comanda anulata
-<li>comanda returnata
+  <li>comanda plasata cu succes</li>
+  <li>comanda in procesare</li>
+  <li>comanda in asteptare</li>
+  <li>comanda finalizata</li>
+  <li>comanda anulata</li>
+  <li>comanda returnata</li>
 </ul>
 
 Pentru fiecare status de mai sus se poate seta un sablon text care poate sa includa urmatoarele variabile:
 <ul>
-<li>numar comanda
-<li>numele clientului
-<li>prenumele clientului
-<li>totalul comenzii
-<li>metoda de livrare
-<li>data comenzii.
+  <li>numar comanda</li>
+  <li>numele clientului</li>
+  <li>prenumele clientului</li>
+  <li>totalul comenzii</li>
+  <li>metoda de livrare</li>
+  <li>data comenzii</li>
 </ul>
 
 Se pot activa sau dezactiva anumite statusuri.
